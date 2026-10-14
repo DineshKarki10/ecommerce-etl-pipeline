@@ -22,8 +22,7 @@ ecommerce-etl-pipeline/
 │   └── erd.txt                        # Entity Relationship Diagram (text)
 ├── .env                               # Database connection string (NOT committed)
 ├── .gitignore                         # Excludes .venv/ and .env
-├── requirements.txt                   # Python dependencies
-└── Project Requirements.pdf            # Original project requirements document
+└──requirements.txt                   # Python dependencies
 ```
 
 ## Dataset
