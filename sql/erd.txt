@@ -1,0 +1,4 @@
+﻿dim_customer (customer_id PK, customer_name, country, state, city)
+dim_product  (product_id PK, product_name, category, sub_category, brand)
+fact_orders  (order_id PK, customer_id FK->dim_customer, order_date, ship_date, delivery_date, payment_method, shipping_cost)
+fact_order_items (order_item_id PK, order_id FK->fact_orders, product_id FK->dim_product, quantity, unit_price, discount, total_sales)
